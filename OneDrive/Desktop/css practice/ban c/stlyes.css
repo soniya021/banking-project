@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.main-container {
+  color: white;
+  display: flex;
+}
+.banc-container {
+  position: fixed;
+  top: 12px;
+  left: 30px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.navbar {
+  width: 15%;
+
+  position: fixed;
+  top: 10px;
+  left: 40%;
+  font-size: 20px;
+}
+
+.navbar ul {
+  display: flex;
+ 
+  list-style: none;
+  justify-content: space-between;
+}
+.navbar li:hover{
+ 
+  border-radius: 30px;
+  background-color: beige;
+  color: black;
+}
+.navbar li {
+  
+  padding: 20px 17px;
+}
+.navbar select {
+  padding: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+}
+.navbar select:hover{
+  background-color: beige;
+  color: black;
+}
+.img-container i {
+  position: fixed;
+  top: 10px;
+  left: 40%;
+}
+.main-container2 {
+  width: 70%;
+  color: bisque;
+  padding: 50px;
+  margin: 30px;
+}
+.main-container2 span {
+  color: green;
+  font-size: 40px;
+}
+.main-container2 h1 {
+  margin: 20px;
+  font-size: 70px;
+  font-weight: 400;
+}
+.main-container2 h6 {
+  margin: 20px;
+  font-size: 25px;
+}
+.main-container2 input {
+  width: 30%;
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: bisque;
+}
+.main-container2 button {
+  cursor: pointer;
+  text-align: center;
+  padding: 22px;
+  border-radius: 50px;
+  background-color: black;
+  color: bisque;
+  border: none;
+  margin-left: -112px;
+}
+
+.main-container2 .navsection {
+  width: 30%;
+  height: 25%;
+  position: fixed;
+  padding: 20px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid white;
+}
+.main-container2 h5 {
+  position: fixed;
+  top: 61%;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navsection section {
+  text-align: center;
+  width: 30%;
+  color: black;
+  background-color: aqua;
+  filter: drop-shadow(0 30px 30px black);
+}
+.navsection section:hover{
+ margin-top: -15px;
+ transform: scaleX(1.1);
+  background-color: antiquewhite;
+ 
+}
+.main-container2 .navsection .images {
+  position: fixed;
+  top: 10%;
+  left: 40px;
+  border-radius: 70%;
+  width: 50%;
+  height: 50%;
+}
+.main-container2 .navsection .texts {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  font-size: 20px;
+}
+.main-container3 {
+  position: fixed;
+  top: 10%;
+  left: 38%;
+}
+.main-container3 img {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 30vw;
+  height: 80vh;
+  border: 5px solid blanchedalmond;
+  filter: drop-shadow(0 50px 30px black);
+}
+.main-container4 {
+  position: absolute;
+  left: 70%;
+  top: 2%;
+  color: white;
+  width: 70%;
+  color: bisque;
+  padding: 50px;
+  margin: 30px;
+}
+.main-container4 img {
+ 
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+  border: 5px solid black;
+  filter: drop-shadow(0 50px 30px black);
+}
+.main-container4 img:hover{
+  filter: drop-shadow(0 30px 30px white);
+}
+.main-container4 .first-block span{
+  position:absolute;
+  top:95%;
+  left:4%;
+  font-size:40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black
+
+}
+.main-container4 .first-block2 {
+  position:absolute;
+  top:120%;
+  font-size:40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black
+}
+.main-container4 .first-block3 {
+  position:absolute;
+  top:180%;
+  font-size:40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black
+}
+.main-container4 .first-block3 h1{
+  color:antiquewhite;
+ 
+}
+.main-container4 .first-block2 h1{
+  color:antiquewhite;
+}
